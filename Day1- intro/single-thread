@@ -1,0 +1,7 @@
+Request 1 ---> Thread 1 [ 50ms ]
+Request 2 ---> Thread 2 [ 50ms ]
+
+Thread1 ---> core 1 --> DB operations [45ms] + synchronous code [ 5ms ] 
+                           |
+                           | Idle
+                           |
