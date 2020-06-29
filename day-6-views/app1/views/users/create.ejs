@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <h2>New User</h2>
+        <form action="save" method="POST">
+          <div>
+            <label>First Name:</label> 
+            <input type="text" name="firstName" class="form-control">
+          </div>
+          <div>
+            <label for="lastName">
+              Last Name:
+            </label>
+            <input type="text" name="lastName" class="form-control">
+          </div>
+          <div>
+            <label for="userName">userName</label>
+            <input type="text" name="userName" class="form-control">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control">
+          </div>
+          <div class="row" style="margin-top: 10px; margin-left: 2px;">
+            <input type="submit" value="Submit" class="btn btn-primary">
+            <a href="/users/" class="btn btn-warning">Cancel</a>
+          </div>
+        </form>
+      </fieldset>
+
+    </div>
+
+  </body>
+</html>

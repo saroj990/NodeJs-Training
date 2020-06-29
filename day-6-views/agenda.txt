@@ -1,0 +1,5 @@
+- working with views
+- passing data
+- render & redirect
+- demo
+- debugging
