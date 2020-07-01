@@ -1,0 +1,11 @@
+-> Controllers
+-> View
+-> Services -> 
+
+users
+  --> user.controller.js
+  --> user.service.js
+  --> user.helper.js
+
+
+- sails 
