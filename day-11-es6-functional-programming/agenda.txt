@@ -1,0 +1,6 @@
+- rest parameters
+- default function parameter
+- spread
+- object literal syntax
+- template literal
+- destructuring
