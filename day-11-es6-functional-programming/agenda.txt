@@ -1,5 +1,5 @@
-- rest parameters
 - default function parameter
+- rest parameters
 - spread
 - object literal syntax
 - template literal
