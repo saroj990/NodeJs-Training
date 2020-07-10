@@ -1,0 +1,15 @@
+{
+  "name": "day-12-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mocha-test.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
