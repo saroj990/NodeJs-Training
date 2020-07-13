@@ -5,7 +5,8 @@ const { add, subtract, divide } = require("../calculator/index");
 describe("calculator", function() {
   // assertion block
   describe("add()", function() {
-    it("will test it later")
+    it("will test it later");
+    
     it("add two numbers", function() {
       let result = add(1, 2);
       expect(result).to.be.equal(3);
